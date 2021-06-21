@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wil Ledbetter | About me</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Check me out!" />
+    <link rel="stylesheet" href="illvis.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Wil Ledbetter</h1>
+        <img id="profile-pic" src="selfie.jpg" alt="A photo of Wil Ledbetter" />
+        <p class="red">
+          William Dean Ledbetter is an artist from Tuscaloosa, AL who works with
+          abstract acrylic painting, handmade paper collage and mixed media
+          artwork.
+        </p>
+      </section>
+      <ul>
+        <li><a href="tel: 205-568-7046">205-568-7046</a></li>
+        <li><a href="mailto: wdledbetter@gmail.com">wdledbetter@gmail.com</a></li>
+      </ul>
+      <section>
+        <form>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                 <!-- Name -->
+          <label for="name">name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="John Doe"
+            required
+          />  
+                </td>
+              </tr>
+              <tr>
+                <td>
+                 <!-- Email -->
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="name@domain.com"
+            required
+          />  
+                </td>
+              </tr>
+              <tr>
+                <td>
+                <!-- Message -->
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>  
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- DOB -->
+                  <label for="DOB">Date of Birth</label>
+                  <input type="date" id="dob" name="dob" />
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- Favorite Color -->
+                  <label for="favoriteColor">Favorite Color</label>
+                  <input type="color" name="favoriteColor" id="favoriteColor" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- Favorite Topic So Far (Git, HTML, CSS) -->
+                  <p>What's been your favorite topic so far?</p>
+                          <label for="noneRadio">None</label>
+                  <input
+                    type="radio"
+                    name="favoriteTopic"
+                    id="noneRadio"
+                    value="none of the above"
+                  />
+                  <label for="gitRadio">Git</label>
+                  <input type="radio" name="favoriteTopic" id="gitRadio" value="git" />
+                  <label for="htmlRadio">HTML</label>
+                  <input
+                    type="radio"
+                    name="favoriteTopic"
+                    id="htmlRadio"
+                    value="html"
+                  />
+                  <label for="cssRadio">CSS</label>
+                  <input type="radio" name="favoriteTopic" id="cssRadio" value="css" />
+                  <!-- Submit Button -->
+                  <button type="submit">Submit</button>
+                </td>
+              </tr>
+          </table>  
+            </tbody>
+
+         
+        </form>
+      </section>
+      <section>
+        <h2>Social Media</h2>
+        <ul id="lis-group">
+          <li class="list-item">
+            <a href="https://github.com/illvis" title="Wil Ledbetter on Github"
+              >Github</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://linkedin.com" title="Wil Ledbetter On Linkedin"
+              >Linkedin (Doesn't Currently Exist)</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contact Me!</h2>
+        <form>
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              title="Your name"
+              aria-label="Name"
+              placeholder="Jane Doe"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              aria-label="Email"
+              placeholder="email@email.com"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <label for="newsletterSignUp">Sign up for my newsletter</label>
+            <input
+              type="checkbox"
+              name="newsletterSignUp"
+              id="newsletterSignUp"
+            />
+          </div>
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+      <section>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" aria-label="Name" id="name" name="name" />
+          <label for="phone">Phone Number</label>
+          <input type="tel" aria-label="Phone Number" id="phone" name="phone" />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
