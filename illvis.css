@@ -1,17 +1,17 @@
 *{
     border: 1px solid black;
     box-sizing: border-box;
+    background-color: aliceblue;
 }
-
-}
-h1 {
-    font-size: auto;
-}
-
 html {
     text-align: center;
     font-size: 26px;
 }
+
+h1 {
+    font-size: auto;
+}
+
 
 .list-item{
     padding: 5px;
